@@ -1,7 +1,7 @@
 import { Search, FileText, Briefcase, FileCheck, Calculator, Home as HomeIcon, HeadphonesIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Newsletter } from '@/components/Newsletter';
 import { Link } from 'react-router-dom';
