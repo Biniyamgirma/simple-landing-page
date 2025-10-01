@@ -5,7 +5,7 @@ import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/ca
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Newsletter } from '@/components/Newsletter';
 import { Link } from 'react-router-dom';
-import heroBanner from '@/assets/hero-banner.jpg';
+import heroBanner from '/images/ethiopia.webp';
 
 export default function Home() {
   const { t } = useLanguage();
