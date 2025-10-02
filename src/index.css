@@ -44,6 +44,9 @@
 }
 
 @layer utilities {
+  .border-color {
+    border-color: ;
+  }
   .bg-background {
     background-color: var(--color-background);
   }
@@ -79,6 +82,8 @@
   }
   .text-accent-foreground {
     color: var(--color-accent-foreground);
+    background-color: #1a4331;
+
   }
   .bg-destructive {
     background-color: var(--color-destructive);

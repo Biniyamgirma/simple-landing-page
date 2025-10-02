@@ -84,7 +84,6 @@ export const Footer = () => {
               ))}
             </div>
           </div>
-
           {/* Location */}
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-foreground">
@@ -112,7 +111,7 @@ export const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-          <p>{t('footer.copyright')}</p>
+         <a href="lomify.com.et"><p>{t('footer.copyright')}</p></a> 
         </div>
       </div>
     </footer>

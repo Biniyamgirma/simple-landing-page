@@ -1,4 +1,4 @@
-import { Search, FileText, Briefcase, FileCheck, Calculator, Home as HomeIcon, HeadphonesIcon } from 'lucide-react';
+import { Search, FileText,IdCard, IdCardLanyard, FileCheck, Calculator, Home as HomeIcon, HeadphonesIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -12,12 +12,12 @@ export default function Home() {
 
   const services = [
     {
-      icon: FileText,
-      title: t('services.passport'),
-      description: t('services.passport.desc'),
+      icon: IdCard,
+      title: t('services.newId'),
+      description: t('services.newId.desc'),
     },
     {
-      icon: Briefcase,
+      icon: FileText,
       title: t('services.business'),
       description: t('services.business.desc'),
     },
@@ -27,7 +27,7 @@ export default function Home() {
       description: t('services.documents.desc'),
     },
     {
-      icon: Calculator,
+      icon: IdCardLanyard,
       title: t('services.tax'),
       description: t('services.tax.desc'),
     },
@@ -116,7 +116,7 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mt-12 text-center">
+          <div className="mt-12 text-center ">
             <Button asChild size="lg" variant="outline">
               <Link to="/services">{t('services.viewAll')}</Link>
             </Button>

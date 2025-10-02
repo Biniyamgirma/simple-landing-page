@@ -86,7 +86,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.quickLinks': 'Quick Links',
     'footer.followUs': 'Follow Us',
     'footer.location': 'Our Location',
-    'footer.copyright': '© 2024 eGov Ethiopia. All rights reserved.',
+    'footer.copyright': '© 2024 eGov Ethiopia. Powerd By Lomify Tech Solutions.',
     'footer.helpline': 'Helpline: +251-11-XXX-XXXX',
   },
   am: {
@@ -98,17 +98,17 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.contact': 'ያግኙን',
     
     // Hero
-    'hero.title': 'እንኳን ወደ eGov ኢትዮጵያ በደህና መጡ',
-    'hero.subtitle': 'የመንግስት አገልግሎቶችን ቀላል ያደርገዋል',
-    'hero.description': 'መድረስ፣ ማመልከት እና መጠየቅ - ሁሉም በአንድ ስፍራ',
-    'hero.search': 'አገልግሎት ፈልግ (ለምሳሌ፡ ፓስፖርት፣ የንግድ ፈቃድ...)',
+    'hero.title': 'እንኳን ወደ ደብረብርሀን እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ ድህረገጽ በደህና መጡ',
+    'hero.subtitle': 'የ መንግስትን አግልግሎቶች ቀለል ለማረግ የተሰራ',
+    'hero.description': 'የጠፋ መታወቂያ፣ የሚታደስ መታወቂያ ፣ አዲስ መታወቂያ እና ቅሬታ ማቅረብ - ሁሉም በአንድ ስፍራ',
+    'hero.search': 'አገልግሎት ፈልግ (ለምሳሌ፡ የጠፋ መታወቂያ፣ ቅሬታ ማቅረብ...)',
     'hero.searchBtn': 'ፈልግ',
     
     // Services
     'services.title': 'የእኛ አገልግሎቶች',
-    'services.subtitle': 'አስፈላጊ የመንግስት አገልግሎቶችን በመስመር ላይ ያግኙ',
-    'services.passport': 'የፓስፖርት አገልግሎቶች',
-    'services.passport.desc': 'አዲስ ፓስፖርት ያመልክቱ ወይም ያሉትን ያድሱ',
+    'services.subtitle': 'በ እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ የምንሰጣቸው አገልግሎቶች ከታች ይመልክቱ',
+    'services.newId': 'አዲስ መታወቂያ መስጠት',
+    'services.newId.desc': 'ባለጉዳይ ከሌላ ቀበሌ የመጣ ከሆነ ከመጣበት ቀበሌ መሸኛ እና በቀበሌያችን ነዋሪ የሆነ ሰው ተያዥ ማቅረብ ይኖርባቸዋል',
     'services.business': 'የንግድ ፈቃድ',
     'services.business.desc': 'ንግድዎን ያስመዝግቡ እና ፈቃድ ያግኙ',
     'services.documents': 'የሲቪል ሰነዶች',
@@ -166,7 +166,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.quickLinks': 'ቀልጣፋ አገናኞች',
     'footer.followUs': 'ተከተሉን',
     'footer.location': 'የእኛ አድራሻ',
-    'footer.copyright': '© 2024 eGov ኢትዮጵያ። ሁሉም መብቶች የተጠበቁ ናቸው።',
+    'footer.copyright': '© 2018 E.C ደብረብርሀን እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ, ኢትዮጵያ። በ ሎሚፋይ ዌብ ሳሉሽን የተሰራ።', 
     'footer.helpline': 'የእገዛ መስመር: +251-11-XXX-XXXX',
   },
 };
@@ -174,7 +174,7 @@ const translations: Record<Language, Record<string, string>> = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider = ({ children }: { children: ReactNode }) => {
-  const [language, setLanguage] = useState<Language>('en');
+  const [language, setLanguage] = useState<Language>('am');
 
   const toggleLanguage = () => {
     setLanguage(prev => prev === 'am' ? 'en' : 'am');
