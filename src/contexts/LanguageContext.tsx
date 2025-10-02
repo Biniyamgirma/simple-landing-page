@@ -103,7 +103,7 @@ const translations: Record<Language, Record<string, string>> = {
 'footer.quickLinks': 'Quick Links',
 'footer.followUs': 'Follow Us',
 'footer.location': 'Our Address',
-'footer.copyright': '© 2018 E.C Debre Birhan Etege Taitou Sub-city Shewareged Gedele Kebele, Ethiopia. Made by Lomifay Web Solutions.',
+'footer.copyright': '© 2018 E.C Debre Birhan Etege Taitou Sub-city Shewareged Gedele Kebele, Ethiopia. Made by Biniyam Girma and Kirubel Asefa',
 'footer.helpline': 'Helpline: +251-11-XXX-XXXX',
   },
   am: {
@@ -202,7 +202,7 @@ const translations: Record<Language, Record<string, string>> = {
     'footer.quickLinks': 'ቀልጣፋ አገናኞች',
     'footer.followUs': 'ተከተሉን',
     'footer.location': 'የእኛ አድራሻ',
-    'footer.copyright': '© 2018 E.C ደብረብርሀን እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ, ኢትዮጵያ። በ ሎሚፋይ ዌብ ሳሉሽን የተሰራ።', 
+    'footer.copyright': '© 2018 E.C ደብረብርሀን እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ, ኢትዮጵያ። በ ቢኒያም ግርማ እና ኪሩበል አሰፋ የተሰራ።', 
     'footer.helpline': 'የእገዛ መስመር: +251-11-XXX-XXXX',
   },
 };

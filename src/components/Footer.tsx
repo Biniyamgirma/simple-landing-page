@@ -111,7 +111,8 @@ export const Footer = () => {
 
         {/* Copyright */}
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-         <a href="https://lomify.com.et/"><p>{t('footer.copyright')}</p></a> 
+          <a href="https://lomify.com.et/" className='hidden'><p>{t('footer.copyright')}</p></a> 
+         <a href=""><p>{t('footer.copyright')}</p></a> 
         </div>
       </div>
     </footer>
