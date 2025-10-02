@@ -10,53 +10,28 @@ export default function News() {
 
   const newsItems = [
     {
-      title: language === 'en' ? 'New Digital ID System Launch' : 'አዲስ ዲጂታል መታወቂያ ስርዓት ጀምሯል',
-      description: language === 'en' 
-        ? 'Ethiopia launches a new digital identity system to streamline government services and improve security.'
-        : 'ኢትዮጵያ የመንግስት አገልግሎቶችን ለማቀላጠፍ እና ደህንነትን ለማሻሻል አዲስ ዲጂታል መታወቂያ ስርዓት ጀመረች።',
+      title: 'በቀበሌው የፅዳት ስራ',
+      description:
+         'አካባቢያችንን ከ ቆሻሻ ማጽዳት የ ሁላችንም ሀላፊነት መሆኑ ተገለጸ።',
       date: '2024-03-15',
-      category: language === 'en' ? 'Technology' : 'ቴክኖሎጂ',
+      category: 'በቀበሌው የፅዳት ስራ',
+      Image:'/images/image-1.webp',
     },
     {
-      title: language === 'en' ? 'Online Tax Filing Now Available' : 'የመስመር ላይ የግብር አቀራረብ አሁን ይገኛል',
-      description: language === 'en'
-        ? 'Citizens can now file their tax returns online through the eGov portal, making the process faster and more convenient.'
-        : 'ዜጎች አሁን የግብር መመለሻቸውን በኢጎቭ በር በኩል በመስመር ላይ ማቅረብ ይችላሉ፣ ይህም ሂደቱን ፈጣን እና ምቹ ያደርገዋል።',
+      title: 'የክፍለ ከተማ አመራሮች የምግቤን ከጓሮዬ ምልከታ',
+      description:  'ከፍተኛ የ ከፍለ ከተማ አመራሮች በ 2017 እየተካሄደ ያለውን የ ልማት ስራዎች ተዘዋውረው ጉብኝት አርገዋል።',
       date: '2024-03-10',
-      category: language === 'en' ? 'Services' : 'አገልግሎቶች',
+      category:  'የክፍለ ከተማ አመራሮች ጉብኝት',
+      Image:'/images/image-2.webp',
     },
     {
-      title: language === 'en' ? 'Business License Processing Time Reduced' : 'የንግድ ፈቃድ ማቀናበር ጊዜ ቀንሷል',
-      description: language === 'en'
-        ? 'The government announces a 50% reduction in business license processing time thanks to digital transformation.'
-        : 'መንግስት በዲጂታል ለውጥ ምክንያት የንግድ ፈቃድ ማቀናበር ጊዜን በ50% መቀነስ አወጀ।',
+      title:'በቀበሌው የ ውሀ ተፋሰስ መውረጃ ግንባታ',
+      description: 'በ 2017 ቀበሌያችን እየተከናወኑ ያሉ የልማት ስራዎች።',
       date: '2024-03-05',
-      category: language === 'en' ? 'Business' : 'ንግድ',
+      category:  'በ ቀበሌው ሚከናወኑ ልማት ስራዎች',
+      Image:'/images/image-3.webp',
     },
-    {
-      title: language === 'en' ? 'Mobile App for Government Services' : 'ለመንግስት አገልግሎቶች ሞባይል መተግበሪያ',
-      description: language === 'en'
-        ? 'Download the new eGov Ethiopia mobile app to access all government services on the go.'
-        : 'ሁሉንም የመንግስት አገልግሎቶች በእንቅስቃሴ ላይ ለማግኘት አዲሱን የኢጎቭ ኢትዮጵያ ሞባይል መተግበሪያ ያውርዱ።',
-      date: '2024-02-28',
-      category: language === 'en' ? 'Technology' : 'ቴክኖሎጂ',
-    },
-    {
-      title: language === 'en' ? 'Improved Passport Services' : 'የተሻሻሉ የፓስፖርት አገልግሎቶች',
-      description: language === 'en'
-        ? 'Passport application and renewal process has been streamlined with new online features.'
-        : 'የፓስፖርት ማመልከቻ እና የማደስ ሂደት በአዲስ የመስመር ላይ ባህሪያት ተቀላጥፏል።',
-      date: '2024-02-20',
-      category: language === 'en' ? 'Services' : 'አገልግሎቶች',
-    },
-    {
-      title: language === 'en' ? 'Digital Payment Integration' : 'የዲጂታል ክፍያ ውህደት',
-      description: language === 'en'
-        ? 'Multiple payment gateways have been integrated to make government fee payments easier and more secure.'
-        : 'የመንግስት ክፍያ ክፍያዎችን ቀላል እና ደህንነቱ የተጠበቀ ለማድረግ በርካታ የክፍያ መግቢያ መንገዶች ተዋህደዋል።',
-      date: '2024-02-15',
-      category: language === 'en' ? 'Finance' : 'ፋይናንስ',
-    },
+    
   ];
 
   return (
@@ -71,7 +46,7 @@ export default function News() {
             <p className="animate-fade-up text-lg text-muted-foreground" style={{ animationDelay: '0.1s' }}>
               {language === 'en' 
                 ? 'Stay updated with the latest developments and announcements'
-                : 'ከቅርብ ጊዜው ሂደቶች እና ማስታወቂያዎች ጋር ይዘምኑ'}
+                : 'ማስታወቂያዎች '}
             </p>
           </div>
         </div>
@@ -88,12 +63,21 @@ export default function News() {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardHeader>
-                  <div className="mb-2 flex items-center justify-between">
-                    <Badge variant="secondary">{item.category}</Badge>
-                    <div className="flex items-center text-sm text-muted-foreground">
-                      <Calendar className="mr-1 h-4 w-4" />
-                      {item.date}
-                    </div>
+                  <div className="mb-2 h-48 p-4 flex items-end justify-between relative">
+                    <div className='h-48 w-ful absolute inset-0 z-10 rounded-2xl bg-cover bg-center' 
+                    style={{
+                      backgroundImage: `
+                        
+                        url(${item.Image})
+                      `,
+                      backgroundSize: 'cover',
+                      backgroundPosition: 'center',
+                      backgroundBlendMode: 'darken',
+                      
+                    }}
+                    
+                    ></div>
+                    <Badge variant="secondary" className='z-20 '>{item.category}</Badge>
                   </div>
                   <CardTitle className="text-xl">{item.title}</CardTitle>
                   <CardDescription>{item.description}</CardDescription>

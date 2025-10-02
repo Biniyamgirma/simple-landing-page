@@ -17,77 +17,94 @@ const translations: Record<Language, Record<string, string>> = {
     'nav.news': 'News & Updates',
     'nav.contact': 'Contact Us',
     
-    // Hero
-    'hero.title': 'Welcome to eGov Ethiopia',
-    'hero.subtitle': 'Simplifying Your Government Services',
-    'hero.description': 'Access, Apply, and Inquire – All in One Place',
-    'hero.search': 'Search for a service (e.g., Passport, Business License)...',
-    'hero.searchBtn': 'Search',
+   'hero.title': 'Welcome to the Debre Birhan Etege Taitu Sub-city Shewareged Gedele Kebele Website',
+  'hero.subtitle': 'Service Announcement Charter',
+  'hero.description': 'Resident meeting day: Monday & Wednesday - Social court service: Monday and Friday from 7:30 to 11:30',
+  'hero.search': 'Search for service (e.g.: lost ID, submit complaint...)',
+  'hero.searchBtn': 'Search',
     
-    // Services
-    'services.title': 'Our Services',
-    'services.subtitle': 'Access essential government services online',
-    'services.passport': 'Passport Services',
-    'services.passport.desc': 'Apply for new passports or renew existing ones',
-    'services.business': 'Business License',
-    'services.business.desc': 'Register and license your business',
-    'services.documents': 'Civil Documents',
-    'services.documents.desc': 'Birth certificates, marriage licenses, and more',
-    'services.tax': 'Tax Services',
-    'services.tax.desc': 'File taxes and manage tax records',
-    'services.land': 'Land Registry',
-    'services.land.desc': 'Property registration and land records',
-    'services.support': 'Support Center',
-    'services.support.desc': 'Get help with government services',
-    'services.viewAll': 'View All Services',
-    
+   // Services
+'services.title': 'Our Services',
+'services.subtitle': 'Below are the services we provide at Etege Taitu Sub-city Shewareged Gedele Kebele.',
+'services.newId': 'Issue New ID',
+'services.newId.desc': 'If a resident comes from another kebele, they must bring a reference from their previous kebele and a guarantor who is a resident of our kebele.',
+'services.mindDesc.newId': 'Service takes 10 minutes',
+
+'services.business': 'Issue Replacement for Lost ID',
+'services.business.desc': 'The applicant must bring an application',
+'services.mindDesc.oldId': 'Service takes 10 minutes',
+
+'services.documents': 'Vital Event Registration - Birth',
+'services.documents.desc': 'The applicant must bring an application, photo, and renewed ID',
+'services.mindDesc.brith': 'Service takes 20 minutes',
+
+'services.tax': 'Vital Event Registration - Death',
+'services.tax.desc': 'The applicant must bring church certificate',
+
+'services.land': 'Vital Event Registration - Marriage',
+'services.land.desc': 'The applicant must bring marriage contract, photos, renewed IDs of husband and wife, and renewed IDs of witnesses',
+
+'services.support': 'Issue Debt-Free Certificate',
+'services.support.desc': 'The applicant must bring an application and renewed ID',
+
+'services.registery': 'Provide Housing Association Information',
+'services.registery.desc': 'The applicant must bring a letter from thier office',
+
+'services.viewAll': 'View All Services',
+
     // About
-    'about.title': 'About eGov Ethiopia',
+    'about.title': 'About Shewareged Gedele Kebele',
     'about.mission': 'Our Mission',
-    'about.mission.text': 'To digitize and simplify citizen-government interaction, making services accessible, transparent, and efficient for all Ethiopians.',
-    'about.vision': 'Our Vision',
-    'about.vision.text': 'A fully digital government that empowers citizens through technology and innovation.',
+    'about.mission.text': 'To provide customers with efficient and quality service, to provide customers with transparent service, to ensure customer satisfaction.',
+
+    'about.vision': 'The Kebele\'s Mission',
+    'about.vision.text': 'To effectively, efficiently, and accessibly execute government and organizational tasks and customer services within the kebele.',
+
+    'about.charter': 'The Kebele\'s Vision',
+    'about.charter.text': 'To see the kebele residents benefiting from good administration and overcoming poverty and backwardness',
+
     'about.values': 'Our Values',
     'about.transparency': 'Transparency',
-    'about.transparency.desc': 'Open and accountable governance',
+    'about.transparency.desc': 'We serve customers with integrity and honesty',
     'about.efficiency': 'Efficiency',
-    'about.efficiency.desc': 'Streamlined, fast services',
+    'about.efficiency.desc': 'Streamlined, fast service',
     'about.accessibility': 'Accessibility',
-    'about.accessibility.desc': 'Services for everyone, everywhere',
+    'about.accessibility.desc': 'Services for everyone',
     'about.innovation': 'Innovation',
     'about.innovation.desc': 'Modern solutions for modern times',
+
     
-    // Newsletter
-    'newsletter.title': 'Stay Informed',
-    'newsletter.description': 'Subscribe to our newsletter for the latest updates on new services and public announcements.',
-    'newsletter.placeholder': 'Your Email Address',
-    'newsletter.subscribe': 'Subscribe',
+// Newsletter
+'newsletter.title': 'Get Information',
+'newsletter.description': 'Subscribe to our daily newsletter for new services and public announcements.',
+'newsletter.placeholder': 'Your email address',
+'newsletter.subscribe': 'Subscribe',
+
+// Contact
+'contact.title': 'Contact Us',
+'contact.subtitle': 'We are here to help',
+'contact.form.name': 'Full Name',
+'contact.form.email': 'Email Address',
+'contact.form.subject': 'Subject',
+'contact.form.subject.general': 'General Inquiry',
+'contact.form.subject.complaint': 'Service Complaint',
+'contact.form.subject.technical': 'Technical Support',
+'contact.form.message': 'Message',
+'contact.form.send': 'Send Message',
+'contact.info.title': 'Contact Information',
+'contact.phone': 'Phone',
+'contact.email': 'Email',
+'contact.hours': 'Office Hours',
+'contact.hours.time': '8:30 AM - 5:30 PM, Monday - Friday',
+'contact.address': 'Address',
+'contact.address.text': ' ',
     
-    // Contact
-    'contact.title': 'Contact Us',
-    'contact.subtitle': 'We are here to help',
-    'contact.form.name': 'Full Name',
-    'contact.form.email': 'Email Address',
-    'contact.form.subject': 'Subject',
-    'contact.form.subject.general': 'General Inquiry',
-    'contact.form.subject.complaint': 'Service Complaint',
-    'contact.form.subject.technical': 'Technical Support',
-    'contact.form.message': 'Message',
-    'contact.form.send': 'Send Message',
-    'contact.info.title': 'Contact Information',
-    'contact.phone': 'Phone',
-    'contact.email': 'Email',
-    'contact.hours': 'Office Hours',
-    'contact.hours.time': '8:30 AM - 5:30 PM, Monday - Friday',
-    'contact.address': 'Physical Address',
-    'contact.address.text': 'eGov Ethiopia Headquarters, Addis Ababa, Ethiopia',
-    
-    // Footer
-    'footer.quickLinks': 'Quick Links',
-    'footer.followUs': 'Follow Us',
-    'footer.location': 'Our Location',
-    'footer.copyright': '© 2024 eGov Ethiopia. Powerd By Lomify Tech Solutions.',
-    'footer.helpline': 'Helpline: +251-11-XXX-XXXX',
+// Footer
+'footer.quickLinks': 'Quick Links',
+'footer.followUs': 'Follow Us',
+'footer.location': 'Our Address',
+'footer.copyright': '© 2018 E.C Debre Birhan Etege Taitou Sub-city Shewareged Gedele Kebele, Ethiopia. Made by Lomifay Web Solutions.',
+'footer.helpline': 'Helpline: +251-11-XXX-XXXX',
   },
   am: {
     // Navigation

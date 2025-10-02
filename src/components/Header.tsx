@@ -26,8 +26,8 @@ export const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 transition-opacity hover:opacity-80">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
-              <Flower2 className="h-6 w-6 text-primary-foreground" />
+            <div className="flex h-10 w-10 items-center justify-center bg-primary rounded-full overflow-clip object-center">
+              <img src="/images/logo.webp" alt=""  />
             </div>
             <span className="text-xl font-bold text-primary">ሸዋረገድ ገድሌ ቀበሌ</span>
           </Link>

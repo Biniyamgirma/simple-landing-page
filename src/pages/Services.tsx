@@ -1,4 +1,4 @@
-import { Search, FileText, Briefcase, FileCheck, Calculator, Home as HomeIcon, HeadphonesIcon, CreditCard, Book, Building } from 'lucide-react';
+import { Search, IdCard, FileCheck, Home as HomeIcon, Book } from 'lucide-react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -11,25 +11,25 @@ export default function Services() {
 
   const allServices = [
     {
-      icon: FileText,
-      title: t('services.passport'),
-      description: t('services.passport.desc'),
+      icon: IdCard,
+      title: t('services.newId'),
+      description: t('services.newId.desc'),
       category: 'Documents',
     },
     {
-      icon: Briefcase,
+      icon: IdCard,
       title: t('services.business'),
       description: t('services.business.desc'),
       category: 'Business',
     },
     {
-      icon: FileCheck,
+      icon: Book,
       title: t('services.documents'),
       description: t('services.documents.desc'),
       category: 'Documents',
     },
     {
-      icon: Calculator,
+      icon: IdCard,
       title: t('services.tax'),
       description: t('services.tax.desc'),
       category: 'Finance',
@@ -41,29 +41,12 @@ export default function Services() {
       category: 'Property',
     },
     {
-      icon: HeadphonesIcon,
+      icon: FileCheck,
       title: t('services.support'),
       description: t('services.support.desc'),
       category: 'Support',
     },
-    {
-      icon: CreditCard,
-      title: 'Payment Services',
-      description: 'Online payment for government fees and services',
-      category: 'Finance',
-    },
-    {
-      icon: Book,
-      title: 'Education Services',
-      description: 'Access educational records and certificates',
-      category: 'Education',
-    },
-    {
-      icon: Building,
-      title: 'Construction Permits',
-      description: 'Apply for building and construction permits',
-      category: 'Property',
-    },
+    
   ];
 
   const filteredServices = allServices.filter(service =>

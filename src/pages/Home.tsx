@@ -6,6 +6,7 @@ import { useLanguage } from '@/contexts/LanguageContext';
 import { Newsletter } from '@/components/Newsletter';
 import { Link } from 'react-router-dom';
 import heroBanner from '/images/ethiopia.webp';
+import Administrater from '@/components/Administrater';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -18,19 +19,19 @@ export default function Home() {
       minDescription: t('services.mindDesc.newId'),
     },
     {
-      icon: IdCardLanyard,
+      icon: IdCard,
       title: t('services.business'),
       description: t('services.business.desc'),
       minDescription: t('services.mindDesc.oldId'),
     },
     {
-      icon: FileCheck,
+      icon: IdCard,
       title: t('services.documents'),
       description: t('services.documents.desc'),
       minDescription: t('services.mindDesc.brith'),
     },
     {
-      icon: IdCardLanyard,
+      icon: IdCard,
       title: t('services.tax'),
       description: t('services.tax.desc'),
       minDescription: t('services.mindDesc.brith'),
@@ -42,13 +43,13 @@ export default function Home() {
       minDescription: t('services.mindDesc.brith'),
     },
     {
-      icon: HeadphonesIcon,
+      icon: FileCheck,
       title: t('services.support'),
       description: t('services.support.desc'),
       minDescription: t('services.mindDesc.brith'),
     },
     {
-      icon: HeadphonesIcon,
+      icon: FileCheck,
       title: t('services.registery'),
       description: t('services.registery.desc'),
       minDescription: t('services.mindDesc.brith'),
@@ -139,6 +140,7 @@ export default function Home() {
 
       {/* Newsletter */}
       <Newsletter />
+      <Administrater />
     </div>
   );
 }
