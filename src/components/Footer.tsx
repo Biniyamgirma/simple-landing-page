@@ -30,7 +30,7 @@ export const Footer = () => {
               <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary">
                 <Flower2 className="h-6 w-6 text-primary-foreground" />
               </div>
-              <span className="text-lg font-bold text-primary">eGov Ethiopia</span>
+              <span className="text-lg font-bold text-primary">ሸዋረገድ ገድሌ ቀበሌ</span>
             </div>
             <p className="text-sm text-muted-foreground">
               {t('hero.description')}
@@ -42,7 +42,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center space-x-2 text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@egov.et</span>
+                <span>info</span>
               </div>
             </div>
           </div>
@@ -98,20 +98,20 @@ export const Footer = () => {
         {/* Google Maps */}
         <div className="mt-8 overflow-hidden rounded-xl border">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.557780849955!2d38.760531!3d9.012500000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2s!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3658.671094038202!2d39.53513062709055!3d9.681575669242216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNDAnNTMuNyJOIDM5wrAzMicxNC43IkU!5e0!3m2!1sam!2set!4v1759392354932!5m2!1sam!2set"
             width="100%"
             height="300"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="eGov Ethiopia Location"
+            title="shewareged gedle kebele Ethiopia Location"
           />
         </div>
 
         {/* Copyright */}
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
-         <a href="lomify.com.et"><p>{t('footer.copyright')}</p></a> 
+         <a href="https://lomify.com.et/"><p>{t('footer.copyright')}</p></a> 
         </div>
       </div>
     </footer>

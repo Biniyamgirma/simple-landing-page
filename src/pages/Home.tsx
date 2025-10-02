@@ -1,4 +1,4 @@
-import { Search, FileText,IdCard, IdCardLanyard, FileCheck, Calculator, Home as HomeIcon, HeadphonesIcon } from 'lucide-react';
+import { Search,IdCard, IdCardLanyard, FileCheck, Home as HomeIcon, HeadphonesIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
@@ -15,31 +15,43 @@ export default function Home() {
       icon: IdCard,
       title: t('services.newId'),
       description: t('services.newId.desc'),
+      minDescription: t('services.mindDesc.newId'),
     },
     {
-      icon: FileText,
+      icon: IdCardLanyard,
       title: t('services.business'),
       description: t('services.business.desc'),
+      minDescription: t('services.mindDesc.oldId'),
     },
     {
       icon: FileCheck,
       title: t('services.documents'),
       description: t('services.documents.desc'),
+      minDescription: t('services.mindDesc.brith'),
     },
     {
       icon: IdCardLanyard,
       title: t('services.tax'),
       description: t('services.tax.desc'),
+      minDescription: t('services.mindDesc.brith'),
     },
     {
       icon: HomeIcon,
       title: t('services.land'),
       description: t('services.land.desc'),
+      minDescription: t('services.mindDesc.brith'),
     },
     {
       icon: HeadphonesIcon,
       title: t('services.support'),
       description: t('services.support.desc'),
+      minDescription: t('services.mindDesc.brith'),
+    },
+    {
+      icon: HeadphonesIcon,
+      title: t('services.registery'),
+      description: t('services.registery.desc'),
+      minDescription: t('services.mindDesc.brith'),
     },
   ];
 
@@ -111,6 +123,7 @@ export default function Home() {
                   </div>
                   <CardTitle className="text-xl">{service.title}</CardTitle>
                   <CardDescription>{service.description}</CardDescription>
+                  <div className='text-gray-700/70 text-sm'>{service.minDescription}</div>
                 </CardHeader>
               </Card>
             ))}

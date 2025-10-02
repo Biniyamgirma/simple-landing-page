@@ -99,37 +99,56 @@ const translations: Record<Language, Record<string, string>> = {
     
     // Hero
     'hero.title': 'እንኳን ወደ ደብረብርሀን እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ ድህረገጽ በደህና መጡ',
-    'hero.subtitle': 'የ መንግስትን አግልግሎቶች ቀለል ለማረግ የተሰራ',
-    'hero.description': 'የጠፋ መታወቂያ፣ የሚታደስ መታወቂያ ፣ አዲስ መታወቂያ እና ቅሬታ ማቅረብ - ሁሉም በአንድ ስፍራ',
+    'hero.subtitle': 'አግልግሎት አሰጣጥ ማሳወቂያ ቻርተር',
+    'hero.description': 'የባለጉዳይ ማስታናገጃ ቀን፡ ሰኞ ረቡዕ፤አርበ -የቀጠና ቀን፡ ማስክኞ እና ሀሙስ -የማህበራዊ ፍ/ቤት አገልግሎት ሰኞ እና አርብ ከ7፡30 እስከ 11፡30',
     'hero.search': 'አገልግሎት ፈልግ (ለምሳሌ፡ የጠፋ መታወቂያ፣ ቅሬታ ማቅረብ...)',
     'hero.searchBtn': 'ፈልግ',
     
     // Services
     'services.title': 'የእኛ አገልግሎቶች',
-    'services.subtitle': 'በ እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ የምንሰጣቸው አገልግሎቶች ከታች ይመልክቱ',
+    'services.subtitle': 'በ እቴጌ ጣይቱ ክፍለ ከተማ ሸዋረገድ ገድሌ ቀበሌ የምንሰጣቸው አገልግሎቶች ከታች ይመልክቱ።',
     'services.newId': 'አዲስ መታወቂያ መስጠት',
-    'services.newId.desc': 'ባለጉዳይ ከሌላ ቀበሌ የመጣ ከሆነ ከመጣበት ቀበሌ መሸኛ እና በቀበሌያችን ነዋሪ የሆነ ሰው ተያዥ ማቅረብ ይኖርባቸዋል',
-    'services.business': 'የንግድ ፈቃድ',
-    'services.business.desc': 'ንግድዎን ያስመዝግቡ እና ፈቃድ ያግኙ',
-    'services.documents': 'የሲቪል ሰነዶች',
-    'services.documents.desc': 'የልደት የምስክር ወረቀት፣ የጋብቻ ፈቃድ እና ሌሎችም',
-    'services.tax': 'የግብር አገልግሎቶች',
-    'services.tax.desc': 'ግብር ያስገቡ እና የግብር መዝገቦችን ያስተዳድሩ',
-    'services.land': 'የመሬት መዝገብ',
-    'services.land.desc': 'የንብረት ምዝገባ እና የመሬት መዝገቦች',
-    'services.support': 'የድጋፍ ማዕከል',
-    'services.support.desc': 'በመንግስት አገልግሎቶች እገዛ ያግኙ',
+    'services.newId.desc': 'ባለጉዳይ ከሌላ ቀበሌ የመጣ ከሆነ ከመጣበት ቀበሌ መሸኛ እና በቀበሌያችን ነዋሪ የሆነ ሰው ተያዥ ማቅረብ ይኖርባቸዋል።',
+    'services.mindDesc.newId': 'አግልግሎት የሚፈጀው ሰዓት 10 ደቂቃ',
+    'services.business': 'የጠፋ መታወቂያ መስጠት',
+    'services.business.desc': 'ባለጉዳይ ማመልከቻ እና ፋይል ቁጥር ይዞ መቅረብ አለበት',
+    'services.mindDesc.oldId': 'አግልግሎት የሚፈጀው ሰዓት 10 ደቂቃ',
+
+    'services.documents': 'የወሳኝ ኩነት ምዝገባ ልደት',
+    'services.documents.desc': 'ባለጉዳይ ማመልከቻ ፣ ጉርድ ፎቶ እና የታደሰ መታወቂያ ይዞ መቅረብ አለበት',
+    'services.mindDesc.brith': 'አግልግሎት የሚፈጀው ሰዓት 20 ደቂቃ',
+
+    'services.tax': 'የወሳኝ ኩነት ምዝገባ ሞት',
+    'services.tax.desc': 'ባለጉዳይ የቤተክርስትያን ማስረጃ እና የታደሰ መታወቂያ ይዞ መቅረብ አለበት',
+
+
+    'services.land': 'የወሳኝ ኩነት ምዝገባ ጋብቻ',
+    'services.land.desc': 'ባለጉዳይ የጋብቻ ውል ፣ ጉርድ ፎቶ የባልና የሚስት የታደሰ መታወቂያ እና የምስክሮች የታደሰመታወቂያ መቅረብ አለበት',
+
+
+    'services.support': 'ከእዳ ነፃ ማስረጃ መስጠት',
+    'services.support.desc': 'ባለጉዳይ ማመልከቻ እና የታደሰ መታወቂያ ይዞ መቅረብ አለበት',
+
+    'services.registery':'የቤት ማህበር መረጃ ለመስጠት',
+    'services.registery.desc': 'ባለጉዳይ ከአደራጅ መስሪያ ቤት ሸኜ ደብዳቤ ይዞ መቅረብ አለበት',
+
+
     'services.viewAll': 'ሁሉንም አገልግሎቶች ይመልከቱ',
     
     // About
-    'about.title': 'ስለ eGov ኢትዮጵያ',
+    'about.title': 'ስለ ሸዋረገድ ገድሌ ቀበሌ',
     'about.mission': 'የእኛ ተልእኮ',
-    'about.mission.text': 'የዜጎች-መንግስት ግንኙነትን ዲጂታላይዝ እና ቀላል ማድረግ፣ አገልግሎቶችን ለሁሉም ኢትዮጵያውያን ተደራሽ፣ ግልጽ እና ቀልጣፋ ማድረግ።',
-    'about.vision': 'የእኛ ራዕይ',
-    'about.vision.text': 'በቴክኖሎጂ እና በፈጠራ ዜጎችን የሚያበረታታ ሙሉ በሙሉ ዲጂታል መንግስት።',
+    'about.mission.text': 'ተገልጋዩች ቀልጣፋ እና ጥራት ያለው አገልግሎት ለመስጠት ተገልጋዮች ግልፀኝነት ያለው አገልግሎት ለመስጠት ተገልጋዮችን ተጠቃሚነት እርካታ ለማረጋገጥ።',
+    
+    'about.vision': 'የቀበሌው ተልዕኮ',
+    'about.vision.text': 'በቀበሌው ውስጥ የሚሰሩ የመንግስት እና የድርጅት ግራዎችን እና የደንበኞችን አገልግሎት በብቃት፤በጥራት ጓና በተደራሽነት መፈፀም መቻል።',
+
+    'about.charter':'የቀበሌው ራዕይ',
+    'about.charter.text':'ቀበሌው ህዝብ ከመልካም አስተዳደር ችግር ወጥቶ ማት ጠቃሚነት ሲያረጋግጥ ማየት ቀበሌው ህዝብ ከድህነት እና ኃላቀርነት ተላቆ ማየት',
+
     'about.values': 'የእኛ እሴቶች',
     'about.transparency': 'ግልጽነት',
-    'about.transparency.desc': 'ክፍት እና ተጠያቂ አስተዳደር',
+    'about.transparency.desc': 'ደንበኞችን በቅንነት እና በታማኝነት እናገለግላለን',
     'about.efficiency': 'ቅልጥፍና',
     'about.efficiency.desc': 'የተቀላጠፈ፣ ፈጣን አገልግሎት',
     'about.accessibility': 'ተደራሽነት',
@@ -160,7 +179,7 @@ const translations: Record<Language, Record<string, string>> = {
     'contact.hours': 'የቢሮ ሰዓት',
     'contact.hours.time': '8:30 ጠዋት - 5:30 ምሽት፣ ሰኞ - አርብ',
     'contact.address': 'አድራሻ',
-    'contact.address.text': 'የ eGov ኢትዮጵያ ዋና መሥሪያ ቤት፣ አዲስ አበባ፣ ኢትዮጵያ',
+    'contact.address.text': 'S',
     
     // Footer
     'footer.quickLinks': 'ቀልጣፋ አገናኞች',

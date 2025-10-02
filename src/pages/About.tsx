@@ -71,6 +71,17 @@ export default function About() {
                 <p className="text-muted-foreground">{t('about.vision.text')}</p>
               </CardContent>
             </Card>
+            <Card className="animate-fade-up border-l-4 border-l-accent" style={{ animationDelay: '0.1s' }}>
+              <CardHeader>
+                <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-lg bg-accent/10 text-accent">
+                  <Eye className="h-6 w-6" />
+                </div>
+                <CardTitle className="text-2xl">{t('about.charter')}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">{t('about.charter.text')}</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
