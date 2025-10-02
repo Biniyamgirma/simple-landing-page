@@ -75,7 +75,6 @@ export default function News() {
                       backgroundBlendMode: 'darken',
                       
                     }}
-                    
                     ></div>
                     <Badge variant="secondary" className='z-20 '>{item.category}</Badge>
                   </div>
